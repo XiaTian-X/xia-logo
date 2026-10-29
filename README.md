@@ -14,6 +14,14 @@
 - 当前发布：[r2](xia/releases/r2/release.md) · [使用指南](xia/releases/r2/guide.md)
 - 固定地址（始终指向当前发布）：[`xia/latest/`](xia/latest/)
 
+### 同夏 Tóng Xià
+
+<a href="tongxia/latest/tongxia-primary-latest.svg"><img src="tongxia/latest/tongxia-primary-latest.svg" alt="同夏 Tóng Xià" height="200"></a>
+
+- 角色：夏 Xià 系列的子品牌
+- 当前发布：[r1](tongxia/releases/r1/release.md) · [使用指南](tongxia/releases/r1/guide.md)
+- 固定地址（始终指向当前发布）：[`tongxia/latest/`](tongxia/latest/)
+
 ### 印夏 Yìn Xià
 
 <a href="yinxia/latest/yinxia-primary-latest.svg"><img src="yinxia/latest/yinxia-primary-latest.svg" alt="印夏 Yìn Xià" height="200"></a>
@@ -21,10 +29,6 @@
 - 角色：夏 Xià 系列的子品牌
 - 当前发布：[r1](yinxia/releases/r1/release.md) · [使用指南](yinxia/releases/r1/guide.md)
 - 固定地址（始终指向当前发布）：[`yinxia/latest/`](yinxia/latest/)
-
-### 同夏 Tóng Xià
-
-尚未发布。
 
 ## 系列
 
