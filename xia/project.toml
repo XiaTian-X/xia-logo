@@ -41,7 +41,7 @@ used = ["source-han-sans-sc-bold", "lxgw-wenkai-medium", "lxgw-pinyin-regular"]
 # 按需生成的目标（./logo export <slug> 不点名时生成这些）：svg、favicon、ios、android、avatar
 targets = ["svg", "avatar"]
 # App 图标、头像与 Android 背景层的品牌底色（色板中的色名）；旧名 android_background 仍兼容
-app_background = "night_blue"
+app_background = "lotus_teal"
 # 自动排版的 App 图标、头像与 Android 前景层里图形的配色：reversed（白色图形，配品牌底色）/ mono / color
 icon_mode = "reversed"
 
