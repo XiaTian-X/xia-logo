@@ -6,15 +6,16 @@ client = "Myself"
 created = "2026-10-29"
 
 [state]
-stage = "exploring"
+stage = "iterating"
 selected_direction = "B"
-selected_version = "B-v006"
+selected_version = "B-v007"
 current_release = ""
 updated = "2026-10-29"
 
 # 色板与配色模式继承自母品牌 xia（r2），按系列规则维护
 [palette]
-# 主题色松绿 pine 为暂定值，设计方向确定后再定；vermilion、paper 继承自母品牌，作点缀与底色
+# 定色（2026-10-29）：墨色 sumi 为标志色，宣纸色 paper 为底板；pine 为早期版本用过的松绿，保留
+sumi = "#2E2A28"
 pine = "#2F7A5A"
 vermilion = "#D9531E"
 paper = "#FBF3E8"
@@ -23,11 +24,13 @@ ink = "#1A1A1A"
 [color_modes]
 modes = ["color", "mono", "reversed"]
 [color_modes.mono]
+sumi = "#000000"
 pine = "#000000"
 vermilion = "#000000"
 paper = "#FFFFFF"
 ink = "#000000"
 [color_modes.reversed]
+sumi = "#FFFFFF"
 pine = "#FFFFFF"
 vermilion = "#FFFFFF"
 paper = "#000000"
