@@ -35,7 +35,7 @@ lotus_teal = "#FFFFFF"
 ink = "#FFFFFF"
 
 [fonts]
-used = ["source-han-sans-sc-bold", "lxgw-wenkai-medium"]
+used = ["source-han-sans-sc-bold", "lxgw-wenkai-medium", "lxgw-pinyin-regular"]
 
 [export]
 # 按需生成的目标（./logo export <slug> 不点名时生成这些）：svg、favicon、ios、android、avatar
