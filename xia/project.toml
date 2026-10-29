@@ -7,13 +7,16 @@ created = "2026-10-29"
 
 [state]
 stage = "exploring"
-selected_direction = ""
-selected_version = ""
+selected_direction = "C"
+selected_version = "C-v008"
 current_release = ""
 updated = "2026-10-29"
 
 [palette]
-# 试色阶段：A 夏夜蓝、B 正午橙、C 荷叶青各用一色，选定方向后再确定主色
+# 定色（2026-10-29）：朱文印风格，朱橙为标志色，宣纸色为头像等底色
+vermilion = "#D9531E"
+paper = "#FBF3E8"
+# 试色阶段用过的颜色（A 夏夜蓝、B 正午橙、C 荷叶青），早期版本仍在使用，保留
 night_blue = "#1E3A5F"
 summer_orange = "#E8590C"
 lotus_teal = "#0F766E"
@@ -24,11 +27,15 @@ modes = ["color", "mono", "reversed"]
 # 单色/反白版默认把所有颜色映射为同一种颜色；图形内部靠颜色区分的细节会因此消失（check 会提醒）。
 # 需要保留时，把内部细节的颜色映射为留白：单色版用 #FFFFFF，反白版用 #000000。
 [color_modes.mono]
+vermilion = "#000000"
+paper = "#FFFFFF"
 night_blue = "#000000"
 summer_orange = "#000000"
 lotus_teal = "#000000"
 ink = "#000000"
 [color_modes.reversed]
+vermilion = "#FFFFFF"
+paper = "#000000"
 night_blue = "#FFFFFF"
 summer_orange = "#FFFFFF"
 lotus_teal = "#FFFFFF"
@@ -41,9 +48,9 @@ used = ["source-han-sans-sc-bold", "lxgw-wenkai-medium", "lxgw-pinyin-regular"]
 # 按需生成的目标（./logo export <slug> 不点名时生成这些）：svg、favicon、ios、android、avatar
 targets = ["svg", "avatar"]
 # App 图标、头像与 Android 背景层的品牌底色（色板中的色名）；旧名 android_background 仍兼容
-app_background = "summer_orange"
+app_background = "paper"
 # 自动排版的 App 图标、头像与 Android 前景层里图形的配色：reversed（白色图形，配品牌底色）/ mono / color
-icon_mode = "reversed"
+icon_mode = "color"
 
 [series]
 # 由 ./logo new --series / ./logo series add 写入，请勿手改
