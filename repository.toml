@@ -1,2 +1,24 @@
 [repository]
 kind = "workspace"
+
+# 设计仓库首页 README.md 的文字（./logo index 生成 README，其余内容来自项目记录）
+[readme]
+title = "夏 Xià · Logo 设计仓库"
+description = "夏 Xià 系列品牌的 Logo 设计、版本与发布记录，由 [印夏 Yìn Xià](https://github.com/XiaTian-X/YinXia) 管理。"
+notice = """
+本仓库中的标志、字标及相关设计文件均为夏（[XiaTian-X](https://github.com/XiaTian-X)）的个人品牌资产，保留所有权利。
+
+- 仅供查看与参考；未经许可，不得商用、修改、再分发，或用作其他产品、服务、组织的标识。
+- 介绍、链接或引用本品牌及其项目时，可原样展示标志；不得修改，也不得暗示赞助、合作或认可关系。
+- 正式许可证正在制定中，发布前以本声明为准。如需其他用途，请在本仓库[提交 Issue](https://github.com/XiaTian-X/xia-logo/issues) 联系。
+- 标志所用字体（霞鹜文楷、LxgwPinyin）依 [SIL Open Font License 1.1](https://openfontlicense.org) 授权；字体的授权不延伸到标志本身。
+"""
+
+# 品牌拼音名（显示为“汉字 拼音”）：项目短名 = "拼音"
+[readme.names]
+xia = "Xià"
+yinxia = "Yìn Xià"
+
+# 系列拼音名（显示为“汉字 拼音”）：系列名 = "拼音"
+[readme.series]
+xia = "Xià"
