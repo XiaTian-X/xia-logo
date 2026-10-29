@@ -6,7 +6,7 @@ client = "Myself"
 created = "2026-10-29"
 
 [state]
-stage = "briefing"
+stage = "exploring"
 selected_direction = ""
 selected_version = ""
 current_release = ""
@@ -34,7 +34,7 @@ paper = "#000000"
 ink = "#FFFFFF"
 
 [fonts]
-used = []
+used = ["lxgw-wenkai-medium", "lxgw-pinyin-regular"]
 
 [export]
 # 按需生成的目标（./logo export <slug> 不点名时生成这些）：svg、favicon、ios、android、avatar
