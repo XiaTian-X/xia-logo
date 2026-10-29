@@ -1,0 +1,6 @@
+# 系列元数据，由 ./logo series 命令维护，请勿手改；成员以各项目 project.toml 的 [series] 为准
+[series]
+id = "xia"
+name = "夏"
+architecture = "endorsed"
+created = "2026-10-29"

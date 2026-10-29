@@ -1,0 +1,47 @@
+# [state] 只能通过 ./logo state / direction / version / release 修改；其余配置（色板、配色模式、字体、导出）可手工维护
+[project]
+name = "夏"
+slug = "xia"
+client = "Myself"
+created = "2026-10-29"
+
+[state]
+stage = "briefing"
+selected_direction = ""
+selected_version = ""
+current_release = ""
+updated = "2026-10-29"
+
+[palette]
+primary = "#000000"
+secondary = "#666666"
+ink = "#111111"
+
+[color_modes]
+modes = ["color", "mono", "reversed"]
+# 单色/反白版默认把所有颜色映射为同一种颜色；图形内部靠颜色区分的细节会因此消失（check 会提醒）。
+# 需要保留时，把内部细节的颜色映射为留白：单色版用 #FFFFFF，反白版用 #000000。
+[color_modes.mono]
+primary = "#000000"
+secondary = "#000000"
+ink = "#000000"
+[color_modes.reversed]
+primary = "#FFFFFF"
+secondary = "#FFFFFF"
+ink = "#FFFFFF"
+
+[fonts]
+used = []
+
+[export]
+# 按需生成的目标（./logo export <slug> 不点名时生成这些）：svg、favicon、ios、android、avatar
+targets = ["svg", "avatar"]
+# App 图标、头像与 Android 背景层的品牌底色（色板中的色名）；旧名 android_background 仍兼容
+app_background = "primary"
+# 自动排版的 App 图标、头像与 Android 前景层里图形的配色：reversed（白色图形，配品牌底色）/ mono / color
+icon_mode = "reversed"
+
+[series]
+# 由 ./logo new --series / ./logo series add 写入，请勿手改
+id = "xia"
+role = "master"
