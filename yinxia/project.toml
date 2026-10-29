@@ -48,4 +48,4 @@ icon_mode = "color"
 # 由 ./logo new --series / ./logo series add 写入，请勿手改
 id = "xia"
 role = "sub"
-master_release = "r1"  # 继承母品牌色板与起稿所依据的发布
+master_release = "r2"  # 继承母品牌色板与起稿所依据的发布
