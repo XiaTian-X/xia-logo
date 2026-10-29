@@ -6,9 +6,9 @@ client = "Myself"
 created = "2026-10-29"
 
 [state]
-stage = "exploring"
+stage = "iterating"
 selected_direction = "B"
-selected_version = "B-v001"
+selected_version = "B-v002"
 current_release = ""
 updated = "2026-10-29"
 
