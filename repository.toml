@@ -18,6 +18,7 @@ notice = """
 [readme.names]
 xia = "Xià"
 yinxia = "Yìn Xià"
+tongxia = "Tóng Xià"
 
 # 系列拼音名（显示为“汉字 拼音”）：系列名 = "拼音"
 [readme.series]
