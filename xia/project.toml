@@ -6,10 +6,10 @@ client = "Myself"
 created = "2026-10-29"
 
 [state]
-stage = "exploring"
+stage = "releasing"
 selected_direction = "C"
 selected_version = "C-v008"
-current_release = ""
+current_release = "r1"
 updated = "2026-10-29"
 
 [palette]
