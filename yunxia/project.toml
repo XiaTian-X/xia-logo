@@ -7,8 +7,8 @@ created = "2026-10-30"
 
 [state]
 stage = "exploring"
-selected_direction = ""
-selected_version = ""
+selected_direction = "C"
+selected_version = "C-v001"
 current_release = ""
 updated = "2026-10-30"
 
