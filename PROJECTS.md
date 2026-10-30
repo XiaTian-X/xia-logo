@@ -10,4 +10,4 @@
 | [mengxia](mengxia/brief.md) | 子品牌 | r2 | 梦夏 | delivered | 4 | E | E-v002 | r1 | 2026-10-30 |
 | [tongxia](tongxia/brief.md) | 子品牌 | r2 | 同夏 | delivered | 4 | B | B-v007 | r1 | 2026-10-29 |
 | [yinxia](yinxia/brief.md) | 子品牌 | r2 | 印夏 | delivered | 2 | B | B-v002 | r1 | 2026-10-29 |
-| [yunxia](yunxia/brief.md) | 子品牌 | r2 | 允夏 | iterating | 3 | C | C-v003 | — | 2026-10-30 |
+| [yunxia](yunxia/brief.md) | 子品牌 | r2 | 允夏 | releasing | 3 | C | C-v003 | r1 | 2026-10-30 |

@@ -40,7 +40,11 @@
 
 ### 允夏 Yǔn Xià
 
-尚未发布。
+<a href="yunxia/latest/yunxia-primary-latest.svg"><img src="yunxia/latest/yunxia-primary-latest.svg" alt="允夏 Yǔn Xià" height="200"></a>
+
+- 角色：夏 Xià 系列的子品牌
+- 当前发布：[r1](yunxia/releases/r1/release.md) · [使用指南](yunxia/releases/r1/guide.md)
+- 固定地址（始终指向当前发布）：[`yunxia/latest/`](yunxia/latest/)
 
 ## 系列
 

@@ -6,15 +6,15 @@ client = "Myself"
 created = "2026-10-30"
 
 [state]
-stage = "iterating"
+stage = "releasing"
 selected_direction = "C"
 selected_version = "C-v003"
-current_release = ""
+current_release = "r1"
 updated = "2026-10-30"
 
 # 色板与配色模式继承自母品牌 xia（r2），按系列规则维护
 [palette]
-# 主题色琥珀 amber 为暂定值，设计方向确定后再定；paper 继承自母品牌，计划作底板，vermilion 可作点缀
+# 主题色琥珀 amber 已于 2026-10-30 系列评审确认；paper 作底板；vermilion、ink 继承自母品牌，r1 未使用
 amber = "#B5791A"
 vermilion = "#D9531E"
 paper = "#FBF3E8"
