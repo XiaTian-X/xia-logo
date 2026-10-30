@@ -6,7 +6,7 @@ client = "Myself"
 created = "2026-10-30"
 
 [state]
-stage = "briefing"
+stage = "exploring"
 selected_direction = ""
 selected_version = ""
 current_release = ""
@@ -16,6 +16,8 @@ updated = "2026-10-30"
 [palette]
 # 主题色紫棠 plum 为暂定值，设计方向确定后再定；paper 继承自母品牌，计划作底板，vermilion 可作点缀
 plum = "#6B4A8E"
+# 叠影（D 方向）的浅紫虚影
+mist = "#B7A3D3"
 vermilion = "#D9531E"
 paper = "#FBF3E8"
 ink = "#1A1A1A"
@@ -24,17 +26,19 @@ ink = "#1A1A1A"
 modes = ["color", "mono", "reversed"]
 [color_modes.mono]
 plum = "#000000"
+mist = "#000000"
 vermilion = "#000000"
 paper = "#FFFFFF"
 ink = "#000000"
 [color_modes.reversed]
 plum = "#FFFFFF"
+mist = "#FFFFFF"
 vermilion = "#FFFFFF"
 paper = "#000000"
 ink = "#FFFFFF"
 
 [fonts]
-used = []
+used = ["lxgw-wenkai-medium", "lxgw-pinyin-regular"]
 
 [export]
 # 按需生成的目标（./logo export <slug> 不点名时生成这些）：svg、favicon、ios、android、avatar
