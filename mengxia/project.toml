@@ -6,10 +6,10 @@ client = "Myself"
 created = "2026-10-30"
 
 [state]
-stage = "exploring"
+stage = "releasing"
 selected_direction = "E"
 selected_version = "E-v002"
-current_release = ""
+current_release = "r1"
 updated = "2026-10-30"
 
 # 色板与配色模式继承自母品牌 xia（r2），按系列规则维护
