@@ -38,9 +38,13 @@
 - 当前发布：[r1](yinxia/releases/r1/release.md) · [使用指南](yinxia/releases/r1/guide.md)
 - 固定地址（始终指向当前发布）：[`yinxia/latest/`](yinxia/latest/)
 
+### 允夏 Yǔn Xià
+
+尚未发布。
+
 ## 系列
 
-- [夏 Xià](_series/xia/series.md) · 背书型：母品牌 夏 Xià、子品牌 梦夏 Mèng Xià、子品牌 同夏 Tóng Xià、子品牌 印夏 Yìn Xià
+- [夏 Xià](_series/xia/series.md) · 背书型：母品牌 夏 Xià、子品牌 梦夏 Mèng Xià、子品牌 同夏 Tóng Xià、子品牌 印夏 Yìn Xià、子品牌 允夏 Yǔn Xià
 
 ## 标志所用字体
 

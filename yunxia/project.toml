@@ -1,0 +1,51 @@
+# [state] 只能通过 ./logo state / direction / version / release 修改；其余配置（色板、配色模式、字体、导出）可手工维护
+[project]
+name = "允夏"
+slug = "yunxia"
+client = "Myself"
+created = "2026-10-30"
+
+[state]
+stage = "briefing"
+selected_direction = ""
+selected_version = ""
+current_release = ""
+updated = "2026-10-30"
+
+# 色板与配色模式继承自母品牌 xia（r2），按系列规则维护
+[palette]
+# 主题色琥珀 amber 为暂定值，设计方向确定后再定；paper 继承自母品牌，计划作底板，vermilion 可作点缀
+amber = "#B5791A"
+vermilion = "#D9531E"
+paper = "#FBF3E8"
+ink = "#1A1A1A"
+
+[color_modes]
+modes = ["color", "mono", "reversed"]
+[color_modes.mono]
+amber = "#000000"
+vermilion = "#000000"
+paper = "#FFFFFF"
+ink = "#000000"
+[color_modes.reversed]
+amber = "#FFFFFF"
+vermilion = "#FFFFFF"
+paper = "#000000"
+ink = "#FFFFFF"
+
+[fonts]
+used = []
+
+[export]
+# 按需生成的目标（./logo export <slug> 不点名时生成这些）：svg、favicon、ios、android、avatar
+targets = ["svg"]
+# App 图标、头像与 Android 背景层的品牌底色（色板中的色名）；旧名 android_background 仍兼容
+app_background = "paper"
+# 自动排版的 App 图标、头像与 Android 前景层里图形的配色：reversed（白色图形，配品牌底色）/ mono / color
+icon_mode = "color"
+
+[series]
+# 由 ./logo new --series / ./logo series add 写入，请勿手改
+id = "xia"
+role = "sub"
+master_release = "r2"  # 继承母品牌色板与起稿所依据的发布
