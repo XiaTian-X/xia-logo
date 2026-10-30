@@ -6,7 +6,7 @@ client = "Myself"
 created = "2026-10-30"
 
 [state]
-stage = "releasing"
+stage = "delivered"
 selected_direction = "E"
 selected_version = "E-v002"
 current_release = "r1"
