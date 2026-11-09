@@ -6,40 +6,28 @@ client = "Myself"
 created = "2026-11-08"
 
 [state]
-stage = "iterating"
+stage = "releasing"
 selected_direction = "H"
 selected_version = "H-v014"
-current_release = ""
+current_release = "r1"
 updated = "2026-11-09"
 
 # 色板与配色模式继承自母品牌 xia（r2），按系列规则维护
 [palette]
-# 新叶绿 leaf 为用户 2026-11-09 指定的试色
+# 主题色新叶绿 leaf 由用户 2026-11-09 指定，系列评审确认；paper 作底板；ink 为结构稿用色（早期版本使用），r1 未使用
 leaf = "#65945A"
-vermilion = "#D9531E"
 paper = "#FBF3E8"
-night_blue = "#1E3A5F"
-summer_orange = "#E8590C"
-lotus_teal = "#0F766E"
 ink = "#1A1A1A"
 
 [color_modes]
 modes = ["color", "mono", "reversed"]
 [color_modes.mono]
 leaf = "#000000"
-vermilion = "#000000"
 paper = "#FFFFFF"
-night_blue = "#000000"
-summer_orange = "#000000"
-lotus_teal = "#000000"
 ink = "#000000"
 [color_modes.reversed]
 leaf = "#FFFFFF"
-vermilion = "#FFFFFF"
 paper = "#000000"
-night_blue = "#FFFFFF"
-summer_orange = "#FFFFFF"
-lotus_teal = "#FFFFFF"
 ink = "#FFFFFF"
 
 [fonts]

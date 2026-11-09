@@ -30,6 +30,14 @@
 - 当前发布：[r1](tongxia/releases/r1/release.md) · [使用指南](tongxia/releases/r1/guide.md)
 - 固定地址（始终指向当前发布）：[`tongxia/latest/`](tongxia/latest/)
 
+### 养夏 Yǎng Xià
+
+<a href="yangxia/latest/yangxia-primary-latest.svg"><img src="yangxia/latest/yangxia-primary-latest.svg" alt="养夏 Yǎng Xià" height="200"></a>
+
+- 角色：夏 Xià 系列的子品牌
+- 当前发布：[r1](yangxia/releases/r1/release.md) · [使用指南](yangxia/releases/r1/guide.md)
+- 固定地址（始终指向当前发布）：[`yangxia/latest/`](yangxia/latest/)
+
 ### 印夏 Yìn Xià
 
 <a href="yinxia/latest/yinxia-primary-latest.svg"><img src="yinxia/latest/yinxia-primary-latest.svg" alt="印夏 Yìn Xià" height="200"></a>
@@ -45,10 +53,6 @@
 - 角色：夏 Xià 系列的子品牌
 - 当前发布：[r1](yunxia/releases/r1/release.md) · [使用指南](yunxia/releases/r1/guide.md)
 - 固定地址（始终指向当前发布）：[`yunxia/latest/`](yunxia/latest/)
-
-### 养夏 Yǎng Xià
-
-尚未发布。
 
 ## 系列
 
