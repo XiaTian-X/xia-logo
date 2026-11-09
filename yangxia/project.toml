@@ -14,6 +14,8 @@ updated = "2026-11-09"
 
 # 色板与配色模式继承自母品牌 xia（r2），按系列规则维护
 [palette]
+# 新叶绿 leaf 为用户 2026-11-09 指定的试色
+leaf = "#65945A"
 vermilion = "#D9531E"
 paper = "#FBF3E8"
 night_blue = "#1E3A5F"
@@ -24,6 +26,7 @@ ink = "#1A1A1A"
 [color_modes]
 modes = ["color", "mono", "reversed"]
 [color_modes.mono]
+leaf = "#000000"
 vermilion = "#000000"
 paper = "#FFFFFF"
 night_blue = "#000000"
@@ -31,6 +34,7 @@ summer_orange = "#000000"
 lotus_teal = "#000000"
 ink = "#000000"
 [color_modes.reversed]
+leaf = "#FFFFFF"
 vermilion = "#FFFFFF"
 paper = "#000000"
 night_blue = "#FFFFFF"
