@@ -7,10 +7,10 @@ created = "2026-11-08"
 
 [state]
 stage = "exploring"
-selected_direction = ""
-selected_version = ""
+selected_direction = "H"
+selected_version = "H-v002"
 current_release = ""
-updated = "2026-11-08"
+updated = "2026-11-09"
 
 # 色板与配色模式继承自母品牌 xia（r2），按系列规则维护
 [palette]
