@@ -8,7 +8,7 @@ created = "2026-11-08"
 [state]
 stage = "iterating"
 selected_direction = "H"
-selected_version = "H-v003"
+selected_version = "H-v007"
 current_release = ""
 updated = "2026-11-09"
 
