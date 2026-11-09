@@ -6,7 +6,7 @@ client = "Myself"
 created = "2026-11-08"
 
 [state]
-stage = "exploring"
+stage = "iterating"
 selected_direction = "H"
 selected_version = "H-v002"
 current_release = ""
